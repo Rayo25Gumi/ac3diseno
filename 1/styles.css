@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+    background-color: azure;
+}
+
+.caja{
+    height: 700px;
+    width: 750px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#titulo{
+    background-color: rgb(87, 82, 82);
+    color: white;
+    height: 50px;
+    margin: 1%;
+}
+
+.espacio1{
+    height: 14%;
+    width: 100%;
+    background-color: white;;
+}
+
+.espacio2{
+    height: 14%;
+    width: 100%;
+    background-color: white;;
+}
+
+.cajafotos1{
+    background-color: grey;
+    height: 18%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.cajafotos2{
+    background-color: grey;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto{
+    background-color: green;
+    margin: 6px;
+    display: block;
+    flex: 0 0 110px; 
+}
+

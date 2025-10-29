@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+    background-color: rgb(45, 136, 65);
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    align-self: flex-start;
+    right: 68%;
+}
+
+.caja {
+    height: 700px;
+    width: 800px;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    align-content: flex-start;
+    color: white;
+}
+
+.caja div {
+    position: relative;
+}
+
+.caja a {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#icono-1 {
+    background-color: rgb(30, 99, 179);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-2 {
+    background-color: rgb(255, 99, 71);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-3 {
+    background-color: rgb(255, 206, 86);
+    height: 17%;
+    width: 121.5px;
+}
+
+#icono-4 {
+    background-color: rgb(75, 192, 192);
+    height: 17%;
+    width: 121.5px;
+}
+
+#icono-5 {
+    background-color: rgb(153, 102, 255);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-6 {
+    background-color: rgb(255, 159, 64);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-7 {
+    background-color: rgb(54, 162, 235);
+    height: 17%;
+    width: 121.5px;
+}
+
+#icono-8 {
+    background-color: rgb(255, 99, 132);
+    height: 17%;
+    width: 121.5px;
+}
+
+#icono-9 {
+    background-color: rgb(99, 255, 132);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-10 {
+    background-color: rgb(255, 255, 102);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-11 {
+    background-color: rgb(255, 204, 229);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-12 {
+    background-color: rgb(102, 178, 255);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-13 {
+    background-color: rgb(204, 255, 204);
+    height: 17%;
+    width: 253px;
+}
+
+#icono-14 {
+    background-color: rgb(255, 204, 153);
+    height: 17%;
+    width: 121.5px;
+}
+
+#icono-15 {
+    background-color: rgb(153, 255, 255);
+    height: 17%;
+    width: 121.5px;
+}
