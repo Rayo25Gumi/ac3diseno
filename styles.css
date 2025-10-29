@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+  background-color: azure;
+}
+
+.caja{
+    height: 500px;
+    width: 650px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#titulo{
+    background-color: rgb(87, 82, 82);
+    color: white;
+    height: 50px;
+    margin: 1%;
+}
+
+.espacio1{
+    height: 14%;
+    width: 100%;
+    background-color: white;
+}
+
+.cajafotos1{
+    background-color: grey;
+    height: 25%;
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flexbox;
+    
+}
