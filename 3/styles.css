@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@300;400;600&display=swap');
+
+* { box-sizing: border-box; }
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif; 
+    color: #222;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.barra {
+    background-color: rgb(39 73 100);
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+}
+
+.zonabusqueda {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 18px;
+    width: 100%;
+}
+
+.zonabusqueda h1{
+    color: #7b0063; 
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    flex: 0 0 auto;
+    font-size: 28px;
+}
+
+.busqueda {
+    flex: 1 1 auto;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.botonera {
+    display: flex;
+    gap: 8px;
+    flex: 0 0 auto;
+}
+
+.btn {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn.search { background-color: rgb(192, 40, 230); color: white; }
+.btn.list  { background: none; }
+.btn.user  { background: none; }
+
+.slector {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 6px 20px 14px;
+    width: 100%;
+}
+
+.slector a{
+    text-decoration: none;
+    color: #7b0063; 
+    font-weight: 600;
+}
+
+.banner{
+    width: 100%;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.cuadro{
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    background: rgba(255,255,255,0.9);
+    padding: 16px;
+    border-radius: 6px;
+    max-width: 320px;
+}
+
+.cuadrados{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.cuadrado {
+    position: relative;
+    flex: 1 1 0;
+    min-height: 220px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.cuadrado .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(52, 51, 51, 0.45);
+    z-index: 1;
+}
+
+.cuadrado .texto {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 12px;
+}
+
+.cuadrado.cuadro1 { background-image: url('img/comedor.jpg'); }
+.cuadrado.cuadro2 { background-image: url('img/cocina.avif'); }
+.cuadrado.cuadro3 { background-image: url('img/salon.webp'); }
+
+.gifts {
+    display: flex;
+    gap: 15px;
+    padding: 0 15px 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* cada gift ocupa ~1/7 del ancho (con espacio para gaps) */
+.gift {
+    flex: 1 1 calc(14.28% - 15px);
+    min-width: 120px;
+    height: 120px;
+    overflow: hidden;
+    background: #eee;
+    display: flex;
+}
+
+.gift img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.gifts-title {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Merriweather', serif;
+    color: #7b0063;
+}
+
+footer {
+    display: flex;
+    gap: 0;
+    width: 100%;
+    height: 220px;
+    background-image: url('img/salon.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.foot-item {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+}
+
+footer h1 { margin: 0; }
